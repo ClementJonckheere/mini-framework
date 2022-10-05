@@ -1,1 +1,20 @@
+<<<<<<< HEAD
 @import './components/buttons';
+=======
+@import '../layout/colors';
+@import '../base/typography';
+
+
+.btn {
+    background-color: $btn-blue;
+    color: #fff;
+    border-radius: 10px;
+    border: 4px;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    font-size: $btn-font-size;
+
+}
+
+
+>>>>>>> 52dded6aa586f622ec040921f49d344a4511cb42
