@@ -1,0 +1,17 @@
+@import '../layout/colors';
+@import '../base/typography';
+
+
+.btn {
+    background-color: $btn-blue;
+    color: #fff;
+    border-radius: 10px;
+    border: 4px;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: $btn-font-size;
+
+}
+
