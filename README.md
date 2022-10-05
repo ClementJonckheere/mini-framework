@@ -75,8 +75,20 @@ Voici le code pour afficher la carte :
  
  ## La Grille ##
  
+ Pour utiliser le système de grille, nous avons mis en place les commandes suivantes :
+ 
+    </br> .grid : pour mettre en place le grid
+    </br> .row : pour mettre en place la rangée
+    </br> .col : pour mettre en place la colonne
+    </br> .col-2 : pour changer le nombre de colonnes sur une rangée
+    </br> .col-3 : pour changer le nombre de colonnes sur une rangée
+    </br> .col-4 : pour changer le nombre de colonnes sur une rangée
+    </br> .col-5 : pour changer le nombre de colonnes sur une rangée
+ 
   ## Le Responsive ##
+  Nous règleront les problèmes de responsive lors de la prochaine mise à jour.
   
   Le `mobile`est jusqu'à `450px`.
+  
  
  
