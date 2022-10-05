@@ -2,6 +2,13 @@
     display: grid;
 }
 
+@mixin col {
+    width: calc(100% / 12);
+    grid-template-columns: $grid-col;
+    background-color: $grid-bg-color;
+    border: $grid-border;
+}
+
 @mixin col-2 {
     width: calc(100% / 12) * 2;
     grid-template-columns: $grid-col;
@@ -29,15 +36,6 @@
     background-color: $grid-bg-color;
     border: $grid-border;
 }
-
-@mixin col {
-    grid-template-columns: auto;
-    width: calc(100% / 12);
-    background-color: red;
-    border: solid black 1px;
-}
-
-
 
 @mixin row {
     grid-template-rows: auto;
