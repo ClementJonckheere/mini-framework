@@ -1,14 +1,39 @@
 
 
-$blue:#0d3efd;
-$gray:#adb5bd;
-$green:#198754;
-$dark:#000;
-$light:#fff;
+// .dark { color:$dark;}
+// .blue {color:$blue}
+// .gray {color:$gray}
+// .green {color:$green}
+// .light {color:$light}
+
+//couleur boutton
+// .btn-outline { 
+//     color: $dark;
+//     border: 2px solid $dark;
+//     background-color: white;
+// }
 
 
-$btn-blue: $blue;
-$btn-gray: $gray;
-$btn-green: $green;
-$btn-dark: $dark;
-$btn-light: $light;
+//couleurs
+//$colors: () !default;
+$colors: (
+    "blue":#0d3efd,
+    "gray":#adb5bd,
+    "green":#198754,
+    "dark":#000,
+    "light":#fff,
+);
+
+
+
+// // $theme-color: () !default;
+// $theme-color:(
+//         $btn-blue: $blue,
+//         $btn-gray: $gray,
+//         $btn-green: $green,
+//         $btn-dark: $dark,
+//         $btn-light: $light,
+// );
+
+
+
