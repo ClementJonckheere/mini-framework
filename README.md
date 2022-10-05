@@ -65,13 +65,13 @@ Pour utiliser les cartes, nous nous servons des classes suivantes :
 Voici le code pour afficher la carte : 
 
 `<div class="card">`
-    `<div class="card-img> <img src="assets/img/photo.jpeg"> </div>`
-   ` <div class="card-title"> Titre </div>`
-   ` <div class="card-p"> <p> Lorem Ipsum  </p> </div>`
-  `  <div class="card-btn-container">`
-       ` <button class="btn"> Voir Plus</button>`
-   ` </div>`
- `</div>`
+   </br>`<div class="card-img> <img src="assets/img/photo.jpeg"> </div>`
+   </br> `<div class="card-title"> Titre </div>`
+   </br> `<div class="card-p"> <p> Lorem Ipsum  </p> </div>`
+   </br> `<div class="card-btn-container">`
+        </br>`<button class="btn"> Voir Plus</button>`
+   </br>`</div>`
+ </br> `</div>`
  
  ## La Grille ##
  
