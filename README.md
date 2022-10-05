@@ -75,5 +75,8 @@ Voici le code pour afficher la carte :
  
  ## La Grille ##
  
+  ## Le Responsive ##
+  
+  Le `mobile`est jusqu'à `450px`.
  
  
