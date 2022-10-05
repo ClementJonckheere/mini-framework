@@ -1,0 +1,71 @@
+@import "../abstracts/variables";
+@import "../mixins/mixins";
+
+
+
+
+  .card {
+
+    width: 300px;
+    height: auto;
+    border-radius: $borderCard;
+    @include boxShadow($shadow);
+
+
+    @include for-mobile {
+      width: 250px;
+      box-shadow: none;
+      border : $colorBorderCard 1px solid;
+    }
+
+
+    .card-img {
+      height: 200px;
+      border-radius: $borderCard;
+      @include for-mobile{
+        height: 150px;
+      }
+      img{
+        width: 100%;
+        border-radius: $borderCard;
+      }
+    }
+
+    .card-title {
+      font-family: "Montserrat";
+      font-size: 25px;
+      text-align: center;
+      padding-top: 30px;
+      font-weight: $weightTitleCard;
+
+      @include for-mobile {
+        font-size: 15px;
+        padding-top: 20px;
+      }
+    }
+
+    .card-p {
+      font-family: "Montserrat";
+      font-size: 15px;
+      text-align: center;
+      padding: 8px;
+
+      @include for-mobile {
+        font-size: 12px;
+        padding: 3px;
+      }
+    }
+
+    .card-btn-container {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+
+      @include for-mobile {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+
+
