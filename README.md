@@ -10,7 +10,7 @@
 
 ## Les couleurs ##
 
-Nous utlisions plusieur types de couleurs: 
+Nous utlisions plusieurs types de couleurs: 
 
 <p>$colors: (
     </br>"blue":#0d3efd,
@@ -28,7 +28,7 @@ Nous utlisions plusieur types de couleurs:
 
 ## Les bouttons ##
 
-Nous utlison .btn pour les classes bouttons 
+Nous utlisons .btn pour les classes bouttons 
 
 Pour utiliser nos bouttons:
 
@@ -52,5 +52,28 @@ Pour utiliser nos bouttons:
 
 
 
-## Les bouttons ##
+## La Carte ##
 
+Pour utiliser les cartes, nous nous servons des classes suivantes : 
+
+.card : pour être le conteneur principal
+    .card-img : pour contenir une image
+    .card-title : le titre de la carte
+    .card-p : Pour contenir un paragraphe ou une légende
+    .card-btn-container : containeur pour le bouton de la card.
+   
+Voici le code pour afficher la carte : 
+
+`<div class="card">
+    <div class="card-img> <img src="assets/img/photo.jpeg"> </div>
+    <div class="card-title"> Titre </div>
+    <div class="card-p"> <p> Lorem Ipsum  </p> </div>
+    <div class="card-btn-container">
+        <button class="btn"> Voir Plus</button>
+    </div>
+ </div>`
+ 
+ ## La Grille ##
+ 
+ 
+ 
