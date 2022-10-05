@@ -3,8 +3,12 @@
 }
 @include googleFonts("Montserrat");
 
-@mixin boxShadow($shadow...){
+@mixin boxShadow($shadow){
   box-shadow: $shadow;
   -webkit-box-shadow: $shadow;
   -moz-box-shadow: $shadow;
+}
+
+@mixin for-mobile {
+  @media screen and (max-width: 450px){@content;}
 }
