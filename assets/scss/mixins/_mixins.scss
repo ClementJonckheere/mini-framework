@@ -19,7 +19,7 @@
 }
 
 @mixin col-4 {
-    width: calc(100% / 12) * 4;
+    width: calc(80rem / 12) * 4;
     grid-template-columns: $grid-col;
 }
 
