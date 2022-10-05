@@ -1,60 +1,12 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.grid {
-  display: grid;
-}
-
-.col {
-  grid-template-columns: auto;
-  width: 8.3333333333%;
-  background-color: red;
-  border: solid black 1px;
-}
-
-.col-2 {
-  width: 16.6666666667%;
-  grid-template-columns: auto;
-  background-color: red;
-  border: solid black 1px;
-}
-
-.col-3 {
-  width: 25%;
-  grid-template-columns: auto;
-  background-color: red;
-  border: solid black 1px;
-}
-
-.col-4 {
-  width: 33.3333333333%;
-  grid-template-columns: auto;
-  background-color: red;
-  border: solid black 1px;
-}
-
-.col-5 {
-  width: 41.6666666667%;
-  grid-template-columns: auto;
-  background-color: red;
-  border: solid black 1px;
-}
-
-.row {
-  grid-template-rows: auto;
-  width: 100%;
-  height: auto;
-  background-color: blue;
-  display: flex;
-  flex-wrap: wrap;
-=======
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .btn {
   display: flex;
   justify-content: center;
@@ -188,7 +140,43 @@
   .card .card-btn-container {
     margin-bottom: 10px;
   }
+}
 
+.grid {
+  display: grid;
+}
+
+.col {
+  width: 8.3333333333%;
+  grid-template-columns: auto;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  grid-template-columns: auto;
+}
+
+.col-3 {
+  width: 25%;
+  grid-template-columns: auto;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+  grid-template-columns: auto;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+  grid-template-columns: auto;
+}
+
+.row {
+  grid-template-rows: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=app.css.map */
