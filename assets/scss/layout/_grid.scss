@@ -1,0 +1,43 @@
+.grid {
+    @include grid();
+}
+
+// .grid-s {
+//     @include grid();
+// }
+
+// .grid-m {
+//     @include grid();
+// }
+
+// .grid-l {
+//     @include grid();
+// }
+
+// .grid-xl {
+//     @include grid();
+// }
+
+.col {
+    @include col();
+}
+
+.col-2 {
+    @include col-2();
+}
+
+.col-3 {
+    @include col-3();
+}
+
+.col-4 {
+    @include col-4();
+}
+
+.col-5 {
+    @include col-5();
+}
+
+.row {
+    @include row();
+}
