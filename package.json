@@ -1,7 +1,6 @@
 {
   "name": "framework-css",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./assets/scss/app.scss:./assets/css/app.css"
@@ -16,6 +15,8 @@
     "url": "https://github.com/ClementJonckheere/mini-framework/issues"
   },
   "homepage": "https://github.com/ClementJonckheere/mini-framework#readme",
+
+  "description": "",
   "dependencies": {
     "sass": "^1.55.0"
   }

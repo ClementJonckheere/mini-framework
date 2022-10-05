@@ -1,3 +1,4 @@
+
 @mixin grid {
     display: grid;
 }
@@ -39,3 +40,25 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+
+
+@mixin googleFonts($nom) {
+  @import url("https://fonts.googleapis.com/css2?family=" + $nom + "&display=swap");
+}
+@include googleFonts("Montserrat");
+
+@mixin boxShadow($shadow){
+  box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+}
+
+@mixin for-mobile {
+  @media screen and (max-width: 450px){@content;}
+}
+
+
