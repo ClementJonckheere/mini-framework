@@ -1,0 +1,5 @@
+@import './components/buttons';
+
+@mixin button-telephone(){
+    @media (max-width: 576px) { @content; }
+}
