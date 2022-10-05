@@ -1,5 +1,30 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.card {
+  border: solid black 1px;
+  width: 300px;
+}
+.card .card-img {
+  height: 200px;
+  background: red;
+}
+.card .card-title {
+  font-family: "Montserrat";
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.card .card-p {
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-align: center;
+  padding: 8px;
+}
+.card .card-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
