@@ -2,13 +2,15 @@
 @import "../mixins/mixins";
 
 .card{
-  border: solid $colorBorderCard 1px;
   width: 300px;
+  height: auto;
+  border-radius: $borderCard;
+  @include boxShadow($shadow);
 
 
   .card-img{
     height: 200px;
-    background: red;
+    border-radius: $borderCard;
   }
 
   .card-title{
