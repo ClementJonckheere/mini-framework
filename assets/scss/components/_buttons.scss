@@ -1,5 +1,6 @@
 @import '../layout/colors';
 @import '../base/typography';
+@import '../mixins/mixins';
 
 //bouton de base couleur bleu
 .btn {
@@ -12,6 +13,10 @@
     cursor: pointer;
     padding: 10px 20px 10px 20px;
     font-size: $btn-font-size;
+
+    @include for-mobile{
+        font-size: 15px;
+    }
 }
 
 @each $color, $value in $colors {

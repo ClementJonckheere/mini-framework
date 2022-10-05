@@ -1,4 +1,6 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .btn {
   display: flex;
   justify-content: center;
@@ -9,6 +11,11 @@
   cursor: pointer;
   padding: 10px 20px 10px 20px;
   font-size: 1.1em;
+}
+@media screen and (max-width: 450px) {
+  .btn {
+    font-size: 15px;
+  }
 }
 
 .btn-blue {
@@ -65,11 +72,6 @@
   background-color: #fff;
 }
 
-h1 {
-  color: red;
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .card {
   width: 300px;
   height: auto;
@@ -132,7 +134,6 @@ h1 {
   .card .card-btn-container {
     margin-bottom: 10px;
   }
-
 }
 
 /*# sourceMappingURL=app.css.map */
